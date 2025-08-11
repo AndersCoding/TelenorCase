@@ -20,10 +20,10 @@ Denne koden er skrevet i Java, og jeg har brukt **IntelliJ** for å teste/kjøre
 
 Eksempel av multi-dimensionelle (2D) arrayet som oppgaven blir basert på
 ```
-|________|row|__|_|_|_| 
-| column | x | x|x|x|x|x
-| column | x | x|x|x|x|x
-| column | x | x|x|x|x|x
-| column | x | x|x|x|x|x
+|________|row|___|___|___|___| 
+| column | x | x | x | x | x | x
+| column | x | x | x | x | x | x
+| column | x | x | x | x | x | x
+| column | x | x | x | x | x | x
 ```
 

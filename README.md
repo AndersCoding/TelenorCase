@@ -27,3 +27,6 @@ Eksempel av multi-dimensionelle (2D) arrayet som oppgaven blir basert på
 | column | x | x|x|x|x|x
 | column | x | x|x|x|x|x
 ```
+
+
+<pre> ``` | | row | | | | | | |------|------|---|---|---|---|---| | col | x | x | x | x | x | x | | col | x | x | x | x | x | x | | col | x | x | x | x | x | x | | col | x | x | x | x | x | x | ``` </pre>

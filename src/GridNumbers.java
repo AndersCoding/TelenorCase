@@ -32,6 +32,7 @@ public class GridNumbers {
             }
             myReader.close();
 
+            // Display array in terminal
             for (int r = 0; r < 20; r++) {
                 for (int c = 0; c < 20; c++) {
                     System.out.print(myNumbers[r][c] + " ");

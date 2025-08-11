@@ -19,11 +19,11 @@ Denne koden er skrevet i Java, og jeg har brukt **IntelliJ** for å teste/kjøre
 ## Multi-dimensional array
 
 Eksempel av multi-dimensionelle (2D) arrayet som oppgaven blir basert på
-´´´
+```
 |  | row | | ||||
 |--|-|-|-|-|-|-|-|
 | column | x | x|x|x|x|x
 | column | x | x|x|x|x|x
 | column | x | x|x|x|x|x
 | column | x | x|x|x|x|x
-´´´
+```

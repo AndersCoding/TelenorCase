@@ -2,15 +2,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class GridNumbers {
+public class ShowNumbers {
     // Display grid numbers as integers
-    public static void main(String[] args) {
+    public static void showNumbers() {
 
         // Since text-file is 20x20, array will need to be multi-dimensional
         int[][] myNumbers = new int[20][20];
 
         try {
-            // Take in source path for text-file
+            // Source path for text-file
             File caseText = new File("src/textfile/grid.txt");
             Scanner myReader = new Scanner(caseText);
 
@@ -32,7 +32,7 @@ public class GridNumbers {
             }
             myReader.close();
 
-            // Display array in terminal
+            // Display array in terminal - O(n2)
             for (int r = 0; r < 20; r++) {
                 for (int c = 0; c < 20; c++) {
                     System.out.print(myNumbers[r][c] + " ");

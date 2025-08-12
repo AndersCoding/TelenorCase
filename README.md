@@ -1,10 +1,3 @@
-# Telenor Case - Grid
-
-Dette skal kun brukes ifm caseoppgave fra Telenor. Vil bli gjort privat 14/8-25.
-
-
-
-
 # IDE
 
 Denne koden er skrevet i Java, og jeg har brukt **IntelliJ** for å teste/kjøre koden.

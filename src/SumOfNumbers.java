@@ -71,17 +71,9 @@ public class SumOfNumbers {
         int thirdNumber = highestNumber-2;
         int fourthNumber = highestNumber-3;
 
-        // Calculate direction and sum of array[4]
-        int[] largestNumbers = new int[4];
-        for(int r = 0; r <4; r++) {
-            for (int c = 0; c < 20; c++) {
-
-            }
-        }
-
         for (int row = 0; row < 20; row++){
             for (int col = 0; col < 20; col++){
-                if (myNumbers[row][col] > secondNumber) {
+                if (myNumbers[row][col] < secondNumber) {
                     secondNumber = myNumbers[row][col];
                     System.out.println(secondNumber);
                 }

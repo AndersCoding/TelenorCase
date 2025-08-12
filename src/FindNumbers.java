@@ -25,6 +25,7 @@ public class FindNumbers {
 
                 // Add numbers to the array - O(n2)
                 for (int column = 0; column < parts.length; column++) {
+                    // parse strings into integers
                     myNumbers[row][column] = Integer.parseInt(parts[column]);
                 }
 
@@ -98,7 +99,7 @@ public class FindNumbers {
                 }
             }
         }
-        System.out.println("Highest number in the array is " + highestNumber + ", located at row: " + Arrays.toString(rowIndexOfArray) + ", column: " + Arrays.toString(columnIndexOfArray));
+        System.out.println("Highest number in the array is " + highestNumber + ", located at column: " + Arrays.toString(rowIndexOfArray) + ", row: " + Arrays.toString(columnIndexOfArray));
 
 
 

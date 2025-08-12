@@ -6,7 +6,7 @@ Denne koden er skrevet i Java, og jeg har brukt **IntelliJ** for å teste/kjøre
 
  - [x] Vise tallene fra *grid.txt*-fil.
  - [ ] Finne de høyeste tallene i columns, enten de er vertikalt, horisontalt eller på tvers av hverandre
- - [ ] Vise hvor i 2D-arrayet de er plassert
+ - [x] Vise hvor i 2D-arrayet de er plassert
 
 
 ## Multi-dimensional array

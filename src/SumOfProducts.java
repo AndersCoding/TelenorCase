@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SumOfNumbers {
+public class SumOfProducts {
 
     public static void findHighestNumbers() {
         int[][] myNumbers = new int[20][20];

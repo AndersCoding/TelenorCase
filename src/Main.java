@@ -13,7 +13,7 @@ public class Main {
 //        }
         //GridNumbers.main(args);
         FindNumbers.findNumbers();
-        System.out.println("");
+        System.out.println(" ");
         FindNumbers.findHighestNumber();
 
     }

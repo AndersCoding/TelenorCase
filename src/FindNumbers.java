@@ -86,8 +86,8 @@ public class FindNumbers {
 
         // Nested loop for finding the largest number - WORKS
             //for-loop to iterate through entire array
-                // compare each number to entire array
-                    // add number to highestNumber-variable
+                // compare each number in array to highestNumber-variable
+                    // add number to highestNumber
                         // print the largest number
         for (int r = 0; r < 20; r++){
             for (int c = 0; c < 20; c++){
@@ -99,11 +99,13 @@ public class FindNumbers {
             }
         }
         System.out.println("Highest number in the array is " + highestNumber + ", located at row: " + Arrays.toString(rowIndexOfArray) + ", column: " + Arrays.toString(columnIndexOfArray));
-        return myNumbers[0][0];
+
+
+
+        return 0;
     }
 
     public static void main(String[] args) {
-       // findNumbers();
         findHighestNumber();
     }
 }
